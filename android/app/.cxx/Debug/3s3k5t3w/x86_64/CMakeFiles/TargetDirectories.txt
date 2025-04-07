@@ -1,0 +1,2 @@
+D:/cella/Cellaa/Semester 4/flutter/flutter_semester_4/flutter_mobile4/android/app/.cxx/Debug/3s3k5t3w/x86_64/CMakeFiles/edit_cache.dir
+D:/cella/Cellaa/Semester 4/flutter/flutter_semester_4/flutter_mobile4/android/app/.cxx/Debug/3s3k5t3w/x86_64/CMakeFiles/rebuild_cache.dir
