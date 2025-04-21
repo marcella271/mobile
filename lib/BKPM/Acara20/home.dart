@@ -45,7 +45,7 @@ class _HomeState extends State<Home>{
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                MaterialButton(
+                MaterialButton(//BUTTON DASHBOARD
                   minWidth: 40,
                   onPressed: () {
                     setState(() {
@@ -69,7 +69,7 @@ class _HomeState extends State<Home>{
                     ],
                   ),
                 ),
-                MaterialButton(
+                MaterialButton(//BUTTON CHAT
                   minWidth: 40,
                   onPressed: () {
                     setState(() {
@@ -98,7 +98,7 @@ class _HomeState extends State<Home>{
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                MaterialButton(
+                MaterialButton(//BUTTON PROFILE
                   minWidth: 40,
                   onPressed: () {
                     setState(() {
@@ -122,7 +122,7 @@ class _HomeState extends State<Home>{
                     ],
                   ),
                 ),
-                MaterialButton(
+                MaterialButton(//BUTTON SETTING
                   minWidth: 40,
                   onPressed: () {
                     setState(() {

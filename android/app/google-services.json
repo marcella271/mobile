@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020840793702",
+    "project_id": "mobilesemester4",
+    "storage_bucket": "mobilesemester4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020840793702:android:de54bc28f19bdf8e2effa7",
+        "android_client_info": {
+          "package_name": "com.example.flutter_project4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-sduJkQG5vYm11OVI0ydaCHzTkBSHCYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

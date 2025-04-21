@@ -8,7 +8,7 @@ class Home extends StatefulWidget{
  class _HomeState extends State<Home>{
 
   //ACARA 21
-    /*@override
+   /* @override
     Widget build(BuildContext context){
       return new Scaffold(
         body: new Container(
@@ -26,7 +26,7 @@ class Home extends StatefulWidget{
     }*/
     
     //ACARA 22
-    final List<String> gambar = [
+    final List<String> gambar = [ //MENDEKLARASIKAN FOTO
       "image.png",
       "image1.png",
       "image2.png",
@@ -37,7 +37,7 @@ class Home extends StatefulWidget{
       "login.png"
     ];
 
-    static const Map<String, Color> colors = {
+    static const Map<String, Color> colors = { 
       'image.png' : Color(0xFF2DB569),
       'image1.png' : Color(0xFFF386B8),
       'image2.png' : Color(0xFF45CAF5),
@@ -61,7 +61,7 @@ class Home extends StatefulWidget{
           ),
           child: new PageView.builder(
             controller: new PageController(viewportFraction: 0.8),
-            itemCount: gambar.length,
+            itemCount: gambar.length, //UNTUK MENENTUKAN TOTAL
             itemBuilder: (BuildContext context, int i){
               return new Padding(
                 padding: 
@@ -71,7 +71,7 @@ class Home extends StatefulWidget{
                   child: new Stack(
                     fit: StackFit.expand,
                     children: <Widget>[
-                      new Hero(
+                      new Hero( //DIGUNAKAN UNTUK TRANSISI ANTAR HALAMAN SAAT HALAMAN DI KLIK
                         tag: gambar[i],
                         child: new Material(
                         child: new InkWell(
@@ -85,7 +85,7 @@ class Home extends StatefulWidget{
                               ),
                             ),
                           ),
-                          onTap:() => Navigator.of(context).push(
+                          onTap:() => Navigator.of(context).push(//PINDAH KE HALAMAN TUJUAN
                             new MaterialPageRoute(
                               builder: (BuildContext context) => 
                                   new Halamandua(
@@ -244,4 +244,8 @@ List<Pilihan> listPilihan = const <Pilihan>[
   const Pilihan(teks: "Green", warna: Colors.green),
   const Pilihan(teks: "Blue", warna: Colors.blue),
 ];
+  
+ 
+
+
 

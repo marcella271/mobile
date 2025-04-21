@@ -22,3 +22,5 @@ class RouteGenerator {
     }); 
   } 
 } 
+//switch case dijalankan satu variabel dengan banyak kemungkinan
+//cotoh untuk role user, atau status data

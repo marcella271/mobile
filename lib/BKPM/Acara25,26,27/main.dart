@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-
-/*void main() {
+//acara 27
+void main() {
   runApp(new MaterialApp(
     home: new Home(),
   ));
-}*/
+}
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
